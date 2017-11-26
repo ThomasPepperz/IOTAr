@@ -5,12 +5,24 @@ IOTAr: A Package for the R Statistical Programming Language
 There are currently three categories of datafiles available:
 
 1.) Raw, Timestamped Trade Data Collected from Cryptocurrency Exchanges (*) (**)
-
-    a.) Bitfinex.com includes variables "Timestamp," "TradeId," "Price," and "Amount" for trading pairs IOT/USD, IOT/BTC,         
+ 
+    a.) Bitfinex lists IOT/USD IOT/BTC trade pairs on Monday, June 12, 2017 (UNC)
+    b.) Bitfinex lists IOT/BTC trade pair on Monday, June 12, 2017 (UNC)
+    c.) Bitfinex lists IOT/ETH trade pair on Wednesday, June 28, 2017 (UNC)
+    d.) Bitfinex to list IOT/EUR someday between Monday, November 27, 2017 & Friday, December 1, 2017 (UNC)
+    
+    e.) Binance listsIOTA/BTC IOTA/ETH trade pair on Thursday, September 28, 2017
+    f.) Binance lists IOTA/ETH trade pair on Thursday, September 28, 2017
+    
+    g.) CoinFalcon.com (UK) listsIOTA/BTC, November 2017
+    
+    h.) OKEx (Hong Kong) lists IOT/BTC, November 20, 2017
+    
+    i.) CoinSpot.au (Austrailia) lists IOT/AUD on Sunday, June 25, 2017
+    
+    (*) Bitfinex.com includes variables "Timestamp," "TradeId," "Price," and "Amount" for trading pairs IOT/USD, IOT/BTC,         
         IOT/ETH 
-    b.) Bitfinex listed IOT/USD & IOT/BTC trade pairs on Monday, June 12, 2017 (UNC)
-    c.) Bitfinex listed IOT/ETH trade pair on Wednesday, June 28, 2017 (UNC)
-    d.) Bitfinex is to list IOT/EUR someday between Monday, November 27, 2017 & Friday, December 1, 2017 (UNC)
+
 
 2.) Open-High-Low-Close (OHLC) Collected from Cryptocurrency Market Indices, Exchanges, & Data Aggregators
 
