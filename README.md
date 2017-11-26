@@ -1,13 +1,30 @@
-# IOTA
-IOTA: A Package for the R Statistical Programming Language
+# IOTAr
+IOTAr: A Package for the R Statistical Programming Language
 
 ## Datafiles
 There are currently three categories of datafiles available:
 
-1.) Raw, trade data from Bitfinex.com with variables "Timestamp," "TradeId," "Price," and "Amount" for trading pairs IOT/USD, IOT/BTC, IOT/ETH. Naming Convention = "trades_IOTXXX_wk#" | Ex. "trades_IOTBTC_wk21"
+1.) Raw, Timestamped Trade Data Collected from Cryptocurrency Exchanges (*) (**)
 
-2.) Open-High-Low-Close (OHLC) data from CoinMarketCap.com with variables "Date" (%m%d%y), "Open", "High", "Low", "Close", "Volume", "Market Cap"
+    a.) Bitfinex.com includes variables "Timestamp," "TradeId," "Price," and "Amount" for trading pairs IOT/USD, IOT/BTC,         
+        IOT/ETH 
+    b.) Bitfinex listed IOT/USD & IOT/BTC trade pairs on Monday, June 12, 2017 (UNC)
+    c.) Bitfinex listed IOT/ETH trade pair on Wednesday, June 28, 2017 (UNC)
+    d.) Bitfinex is to list IOT/EUR someday between Monday, November 27, 2017 & Friday, December 1, 2017 (UNC)
 
-3.) Social media-related data from CryptoCompare.com
+2.) Open-High-Low-Close (OHLC) Collected from Cryptocurrency Market Indices, Exchanges, & Data Aggregators
 
-All of the data are formatted inside files as comma-separated values.
+    CoinMarketCap.com with variables "Date" (%m%d%y), "Open", "High", "Low", "Close",        
+    "Volume", and "Market Cap"
+
+3.) Social Media-Related data Collected from Cryptocurrency Market & Data Aggregators
+
+    a.) CoinMarketCap.com
+    b.) CryptoCompare.com
+
+    (*) All of the data are formatted inside files as comma-separated values
+    (**) Naming Convention = "trades_IOTXXX_wk#" | Ex. "trades_IOTBTC_wk21"
+    
+### IOTAr Functionality
+
+'IOTAr' (pronounced eye-OAT-tah-ARE) introduces a suite of IOTA-specific functions into the R Statistical Programming Language's (R) package voacbulary. 
