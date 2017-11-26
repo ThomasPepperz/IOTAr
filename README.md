@@ -27,4 +27,4 @@ There are currently three categories of datafiles available:
     
 ### IOTAr Functionality
 
-'IOTAr' (pronounced eye-OAT-tah-ARE) introduces a suite of IOTA-specific functions into the R Statistical Programming Language's (R) package voacbulary. 
+'IOTAr' (pronounced eye-OAT-tah-ARE) introduces a suite of IOTA-specific functions into the R Statistical Programming Language's (R) package vocabulary. 
