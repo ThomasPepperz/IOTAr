@@ -1,7 +1,13 @@
 # IOTAr
 IOTAr: A Package for the R Statistical Programming Language
 
-## Datafiles
+## Installation
+require(devtools)
+install_github('ThomasPepperz/IOTAr')
+
+### Features
+
+#### Datafiles
 There are currently three categories of datafiles available:
 
 1.) Raw, Timestamped Trade Data Collected from Cryptocurrency Exchanges (*) (**)
