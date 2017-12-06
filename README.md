@@ -5,15 +5,16 @@ IOTAr: A Package for the R Statistical Programming Language
 'IOTAr' (pronounced eye-OAT-tah-ARE) introduces a suite of IOTA-specific functions into the R Statistical Programming Language's (R) package vocabulary. 
 
 ## Installation
-require(devtools)
-install_github('ThomasPepperz/IOTAr')
+
+/# Uses 'devltools' library to invoke install_github command
+devtools::install_github('ThomasPepperz/IOTAr')
 
 ## IOTA Market Data
 There are currently three categories of datafiles available: 
 
-1.) Raw trade data obtained from cryptocurrency exchanges.
+1.) Raw trade data obtained from cryptocurrency exchanges
 2.) Open-High-Low-Close (OHLC) compiled from cryptocurrency exchange-specific trade data
-3.) 
+3.) Social Media Activity Data regarding Twitter, Reddit, and Facebook from CryptoCompare.Com
 
 ### Raw, Timestamped Trade Data Collected from Cryptocurrency Exchanges (*) (**)
     a.) Bitfinex lists IOT/USD IOT/BTC trade pairs on Monday, June 12, 2017 (UNC)
@@ -39,7 +40,6 @@ Bitfinex listed IOT/USD and IOT/BTC trading pairs Monday, June, 12, 2017 (UNC). 
 
 ## CoinSpot.au
 
-
 ## CoinMarketCap.com
 A dataset built-in to the package featuring Open-High-Low-Close (OHLC) and aggregated from Cryptocurrency Market Indices (CMIs), exchanges, & data agregators. Includes the following variables: {"Date" (%m%d%y), "Open", "High", "Low", "Close","Volume", and "Market Cap"}
 
@@ -49,7 +49,6 @@ A dataset built-in to the package featuring Open-High-Low-Close (OHLC) and aggre
 Note_1: All of the data are formatted inside files as comma-separated values.
 Note_2: Naming Convention = "trades_IOTXXX_wk#" | Ex. "trades_IOTBTC_wk21" Social Media-Related data Collected from Cryptocurrency Market & Data Aggregators
 
-    
 ## IOTAr Functionality
 
 
